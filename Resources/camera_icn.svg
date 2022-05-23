@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="28px" viewBox="0 0 51 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>camera_icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="6" width="30" height="20" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M42.0706547,8.09130859 L48.2723828,5.24975834 C49.7788042,4.55953587 51,5.34177063 51,6.99109042 L51,25.0089096 C51,26.6608432 49.78622,27.4438619 48.2752794,26.7515689 L42,23.8763184 L42.0706547,8.09130859 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="22.0049938" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="31" y="11" width="12" height="10"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="10" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="34" y="10" width="6" height="12"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6" height="12" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="9.5" y="6.5" width="5" height="12"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="12" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="16" y="21" width="2" height="12"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="2" height="12" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="9.5" y="-9.5" width="5" height="24" rx="1"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="24" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ELEMENTS" transform="translate(-521.000000, -3178.000000)">
+            <g id="camera_icn" transform="translate(521.000000, 3178.000000)">
+                <use id="Rectangle-111" stroke="#54636D" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use id="Triangle-1" stroke="#54636D" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <use id="Rectangle-112-Copy-7" stroke-opacity="0.502122962" stroke="#47B7E9" mask="url(#mask-6)" stroke-width="4" transform="translate(37.000000, 16.000000) rotate(-90.000000) translate(-37.000000, -16.000000) " xlink:href="#path-5"></use>
+                <use id="Rectangle-112" stroke="#54636D" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                <use id="Rectangle-112-Copy-6" stroke-opacity="0.502122962" stroke="#47B7E9" mask="url(#mask-10)" stroke-width="4" transform="translate(12.000000, 12.500000) rotate(-90.000000) translate(-12.000000, -12.500000) " xlink:href="#path-9"></use>
+                <use id="Rectangle-112-Copy-2" stroke="#54636D" mask="url(#mask-12)" stroke-width="4" fill="#FFFFFF" transform="translate(17.000000, 27.000000) rotate(-90.000000) translate(-17.000000, -27.000000) " xlink:href="#path-11"></use>
+                <use id="Rectangle-112-Copy-3" stroke="#54636D" mask="url(#mask-14)" stroke-width="4" fill="#FFFFFF" transform="translate(12.000000, 2.500000) rotate(-90.000000) translate(-12.000000, -2.500000) " xlink:href="#path-13"></use>
+                <ellipse id="Oval-109" stroke-opacity="0.502122962" stroke="#47B7E9" stroke-width="2" cx="24.5" cy="19.5" rx="1.5" ry="1.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

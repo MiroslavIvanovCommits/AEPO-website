@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>nav_btn_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-1102.000000, -372.000000)" fill="#FFFFFF">
+            <g id="1.-MAIN-IMAGE" transform="translate(0.000000, 72.000000)">
+                <g id="nav_btn_hover" transform="translate(1126.000000, 324.000000) rotate(-180.000000) translate(-1126.000000, -324.000000) translate(1102.000000, 300.000000)">
+                    <path d="M24,48 C37.254834,48 48,37.254834 48,24 C48,10.745166 37.254834,0 24,0 C10.745166,0 0,10.745166 0,24 C0,37.254834 10.745166,48 24,48 Z M27.3869786,34.6833811 L18.3869786,23.6833811 L18.3869786,24.3166189 L27.3869786,13.3166189 C27.5618424,13.1028965 27.5303413,12.7878851 27.3166189,12.6130214 C27.1028965,12.4381576 26.7878851,12.4696587 26.6130214,12.6833811 L17.6130214,23.6833811 C17.4623262,23.867564 17.4623262,24.132436 17.6130214,24.3166189 L26.6130214,35.3166189 C26.7878851,35.5303413 27.1028965,35.5618424 27.3166189,35.3869786 C27.5303413,35.2121149 27.5618424,34.8971035 27.3869786,34.6833811 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

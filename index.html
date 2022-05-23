@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./Resources/AEPO Logo - Footer.svg">
+    <title>AEPO</title>
+</head>
+
+<body>
+    <header>
+        <article class="header-logo">
+            <img src="./Resources/LOGOTYPE.svg" alt="AEPO Logotype">
+        </article>
+        <nav class="header-nav">
+            <ul class="header-nav-list" id="header-nav-list">
+                <li class="header-nav-list-item desktopOnly fade-in active"><a href="#">HOME</a></li>
+                <li class="header-nav-list-item desktopOnly fade-in"><a href="#">WORK</a></li>
+                <li class="header-nav-list-item desktopOnly fade-in"><a href="#">ABOUT</a></li>
+                <li class="header-nav-list-item desktopOnly fade-in"><a href="#">BLOG</a></li>
+                <li class="header-nav-list-item desktopOnly fade-in"><a href="#">CONTACT</a></li>
+                <li class="header-nav-list-item"><a href="javascript:void(0);" id="menuButton" class="icon" onclick="sandwichMenu()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carousel">
+            <div id="welcomeCarousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-text">
+                            <h2>AEPO</h2>
+                            <h3>The one and only Aerial Photography Studio</h3>
+                        </div>
+                        <img class="d-block w-100" src="./Resources/Main.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text">
+                            <h2>AEPO</h2>
+                            <h3>The one and only Aerial Photography Studio</h3>
+                        </div>
+                        <img class="d-block w-100" src="./Resources/Main.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-text">
+                            <h2>AEPO</h2>
+                            <h3>The one and only Aerial Photography Studio</h3>
+                        </div>
+                        <img class="d-block w-100" src="./Resources/Main.png" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel"
+                    data-bs-slide="prev">
+                    <img class="carousel-previous-arrow" src="./Resources/nav_btn.svg" alt="previous arrow">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel"
+                    data-bs-slide="next">
+                    <img class="carousel-next-arrow" src="./Resources/nav_btn.svg" alt="next arrow"
+                        style="transform: scale(-1,1)">
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="intro">
+            <h4 class="intro-title">
+                WE ARE AEPO
+            </h4>
+            <p class="intro-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolorum nobis, iusto
+                cupiditate minus dicta enim ab quaerat? Sed porro vel rerum incidunt reprehenderit dolor obcaecati
+                repudiandae dolores unde! Blanditiis rem cupiditate ducimus sed, qui quis modi, officia voluptatum, iste
+                nisi in. Aliquid fugit at id harum itaque molestiae, maxime ad deleniti. Saepe recusandae placeat
+                voluptates maxime, aperiam sunt!
+            </p>
+        </section>
+
+        <section id="latest">
+            <h4 class="latest-title">
+                LATEST POSTS
+            </h4>
+            <ul>
+                <li>
+                    <article class="latest-article">
+                        <img src="./Resources/California.JPG" alt="California image">
+                        <div class="article-text-block">
+                            <h5>CALIFORNIA</h5>
+                            <div class="hidden">
+                                <p class="calendar-date">05 Sep 2016</p>
+                                <p class="article-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Sit
+                                    molestias
+                                    odit fugit dicta assumenda,
+                                    sint natus at nemo?</p>
+                                <button class="article-btn">READ ALL</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="latest-article">
+                        <img src="./Resources/Oregon storm.jpg" alt="Oregon storm image">
+                        <div class="article-text-block">
+                            <h5>OREGON STORM</h5>
+                            <div class="hidden">
+                                <p class="calendar-date">11 Jul 2016</p>
+                                <p class="article-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Sit
+                                    molestias
+                                    odit fugit dicta assumenda,
+                                    sint natus at nemo?</p>
+                                <button class="article-btn">READ ALL</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="latest-article">
+                        <img src="./Resources/Japan.jpg" alt="Japan image">
+                        <div class="article-text-block">
+                            <h5>JAPAN</h5>
+                            <div class="hidden">
+                                <p class="calendar-date">07 May 2016</p>
+                                <p class="article-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Sit
+                                    molestias
+                                    odit fugit dicta assumenda,
+                                    sint natus at nemo?</p>
+                                <button class="article-btn">READ ALL</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section id="promotion">
+            <h4 class="promotion-title">
+                WHY HIRE US
+            </h4>
+            <section class="promotion-boxes">
+                <article class="promotion-box">
+                    <img src="./Resources/contractor_icn.svg" alt="Contractor icon">
+                    <p>Over 200 contractors in over 30 states and 20 countries</p>
+                </article>
+                <article class="promotion-box">
+                    <img src="./Resources/fleet_icn.svg" alt="Fleet icon">
+                    <p>Fleet of 5 helicopters and 2 ultalight planes</p>
+                </article>
+                <article class="promotion-box">
+                    <img src="./Resources/camera_icn.svg" alt="Camera icon">
+                    <p>We use the best gear available in the world</p>
+                </article>
+                <article class="promotion-box">
+                    <img src="./Resources/helmet_icn.svg" alt="Helmet icon">
+                    <p>No accidents since we started the service in 1986</p>
+                </article>
+            </section>
+        </section>
+
+        <section id="clients">
+            <h4 class="clients-title">
+                OUR CLIENTS
+            </h4>
+            <section class="clients-images">
+                <img src="./Resources/fox_logo.png" alt="Fox logo">
+                <img src="./Resources/hbo_logo.png" alt="HBO logo">
+                <img src="./Resources/rapha_logo.png" alt="Rapha logo">
+                <img src="./Resources/apple_logo.png" alt="Apple logo">
+            </section>
+        </section>
+
+        <section id="testimonials">
+            <h4 class="testimonials-title">
+                FROM OUR CLIENTS
+            </h4>
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Resources/profilepic.png" class="d-block" alt="Customer picture">
+                        <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum corrupti optio
+                            hic nam sint, expedita, porro cupiditate, natus qui ad tempore aperiam? Ex, totam recusandae
+                            illo nihil atque adipisci tempora?"</p>
+                        <span class="bold">Joel Holmes </span><span>Director of Photography / HBO</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Resources/profilepic.png" class="d-block" alt="Customer picture">
+                        <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eveniet
+                            assumenda, voluptatem quibusdam, earum voluptatibus numquam maiores officiis, at molestias
+                            aliquid iusto saepe libero alias minima! Nisi sit dolorem ut laudantium debitis aliquid
+                            culpa."</p>
+                        <span class="bold">Joel Holmes </span><span>Director of Photography / HBO</span>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Resources/profilepic.png" class="d-block" alt="Customer picture">
+                        <p class="quote">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, obcaecati
+                            eligendi. Consectetur possimus expedita voluptatum maxime exercitationem. Quaerat iusto
+                            excepturi fuga veritatis corporis asperiores laborum velit?"
+                        </p>
+                        <span class="bold">Joel Holmes </span><span>Director of Photography / HBO</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h4 class="conclusion-title">
+                HOW WAS THAT
+            </h4>
+            <p class="conclusion-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem dolorem illum
+                vero labore sint
+                debitis commodi quas perspiciatis itaque, magni suscipit saepe cumque rem voluptates earum provident
+                pariatur voluptatum animi! Sint placeat ex molestiae ipsam laudantium accusamus, at numquam harum eos
+                aliquid, amet qui nostrum pariatur veniam dolores? Dolores dignissimos laborum iusto, sunt corrupti
+                itaque nobis earum omnis fuga sequi optio asperiores alias excepturi pariatur voluptate vitae quas
+                molestias?
+            </p>
+            <article class="conclusion-btns">
+                <button>About</button>
+                <button>Contact</button>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <article class="footer-logo">
+            <img src="./Resources/AEPO Logo - Footer.svg" alt="AEPO logo">
+            <p class="footer-logo-text">All rights reserved, &copy;2016 AEPO inc</p>
+        </article>
+        <nav class="footer-nav">
+            <ul class="footer-nav-list">
+                <li class="footer-nav-list-item"><a href="#">HOME</a></li>
+                <li class="footer-nav-list-item"><a href="#">WORK</a></li>
+                <li class="footer-nav-list-item"><a href="#">ABOUT</a></li>
+                <li class="footer-nav-list-item"><a href="#">BLOG</a></li>
+                <li class="footer-nav-list-item"><a href="#">CONTACT</a></li>
+                <li class="footer-nav-list-item"><a href="#">FAQ</a></li>
+                <li class="footer-nav-list-item"><a href="#">LEGAL</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
